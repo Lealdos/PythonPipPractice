@@ -1,0 +1,7 @@
+services:
+  wordgraph:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/WordGraph
